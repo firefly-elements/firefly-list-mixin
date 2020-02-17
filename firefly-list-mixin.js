@@ -70,7 +70,7 @@ export const FireflyListMixin = superclass =>
         },
 
         /** Indicates the name of the firebase node attribute that you should use to sort the list. */
-        orderByChild: {
+        orderBy: {
           type: String,
           value: "name",
           notify: true
